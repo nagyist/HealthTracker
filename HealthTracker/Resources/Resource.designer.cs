@@ -60,11 +60,17 @@ namespace HealthTracker
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int EnterButton = 2131034114;
+			
 			// aapt resource value: 0x7f050001
 			public const int EnterProtienEditText = 2131034113;
 			
 			// aapt resource value: 0x7f050000
 			public const int EnterProtienTextView = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int TotalProtienTextView = 2131034115;
 			
 			static Id()
 			{
@@ -94,6 +100,9 @@ namespace HealthTracker
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f040004
+			public const int Enter = 2130968580;
 			
 			// aapt resource value: 0x7f040002
 			public const int EnterProtien = 2130968578;

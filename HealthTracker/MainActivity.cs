@@ -19,9 +19,14 @@ namespace HealthTracker
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			var textView = FindViewById<TextView>(Resource.Id.EnterProtienTextView);
-			var editText = FindViewById<EditText> (Resource.Id.EnterProtienEditText);
-			Console.WriteLine (editText.Text);
+			var button = FindViewById<Button> (Resource.Id.EnterButton);
+
+			button.Click += (sender, e) => 
+			{
+				var editText = FindViewById<EditText> (Resource.Id.EnterProtienEditText);
+				var total = FindViewById<TextView>(Resource.Id.TotalProtienTextView);
+				total.Text = editText.Text + " grams";
+			};
 
 		}
 	}
