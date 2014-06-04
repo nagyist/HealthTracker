@@ -1,1 +1,1 @@
-<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">HealthTracker</string></resources>
+<resources><string name="hello">Hello World, Click Me!</string><string name="app_name">HealthTracker</string><string name="EnterProtien">Enter Protein</string><string name="TestData">100</string></resources>
