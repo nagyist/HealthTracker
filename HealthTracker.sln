@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthTracker", "HealthTracker\HealthTracker.csproj", "{CA23C929-6172-41B9-8D23-16911777E519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA23C929-6172-41B9-8D23-16911777E519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA23C929-6172-41B9-8D23-16911777E519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA23C929-6172-41B9-8D23-16911777E519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA23C929-6172-41B9-8D23-16911777E519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = HealthTracker\HealthTracker.csproj
+	EndGlobalSection
+EndGlobal
