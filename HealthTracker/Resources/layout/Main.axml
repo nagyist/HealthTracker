@@ -21,4 +21,9 @@
         android:id="@+id/TotalProtienTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/GoalsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Goals" />
 </LinearLayout>

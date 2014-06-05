@@ -28,6 +28,13 @@ namespace HealthTracker
 				total.Text = editText.Text + " grams";
 			};
 
+			var goalsButton = FindViewById<Button> (Resource.Id.GoalsButton);
+
+			goalsButton.Click += (sender, e) => 
+			{
+				StartActivity(typeof(Goals));
+			};
+
 		}
 	}
 }

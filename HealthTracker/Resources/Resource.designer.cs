@@ -69,6 +69,9 @@ namespace HealthTracker
 			// aapt resource value: 0x7f050001
 			public const int EnterProtienTextView = 2131034113;
 			
+			// aapt resource value: 0x7f050005
+			public const int GoalsButton = 2131034117;
+			
 			// aapt resource value: 0x7f050000
 			public const int GoalsTextView = 2131034112;
 			
