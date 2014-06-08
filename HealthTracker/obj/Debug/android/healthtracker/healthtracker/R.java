@@ -20,6 +20,7 @@ public final class R {
         public static final int GoalsButton=0x7f050005;
         public static final int GoalsTextView=0x7f050000;
         public static final int TotalProtienTextView=0x7f050004;
+        public static final int linearLayout1=0x7f050006;
     }
     public static final class layout {
         public static final int goals=0x7f030000;

@@ -78,6 +78,9 @@ namespace HealthTracker
 			// aapt resource value: 0x7f050004
 			public const int TotalProtienTextView = 2131034116;
 			
+			// aapt resource value: 0x7f050006
+			public const int linearLayout1 = 2131034118;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
