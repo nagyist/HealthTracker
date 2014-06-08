@@ -1,15 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HealthTracker/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="HealthTracker/MainActivity.cs" Line="35" Column="34" />
-      <File FileName="HealthTracker/Resources/values/Strings.xml" Line="1" Column="1" />
-      <File FileName="HealthTracker/Goals.cs" Line="1" Column="1" />
+      <File FileName="HealthTracker/Resources/values/Strings.xml" Line="8" Column="28" />
+      <File FileName="HealthTracker/Goals.cs" Line="24" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HealthTracker MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.HealthTracker MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" />
 </Properties>
