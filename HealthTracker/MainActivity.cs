@@ -17,7 +17,7 @@ namespace HealthTracker
 			base.OnCreate (bundle);
 
 			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.Main);
+			SetContentView (Resource.Layout.Manual);
 
 			var button = FindViewById<Button> (Resource.Id.EnterButton);
 
@@ -34,6 +34,14 @@ namespace HealthTracker
 			{
 				StartActivity(typeof(Goals));
 			};
+
+			var spinner = FindViewById<Spinner> (Resource.Id.vegetableDropdown);
+
+			var adapter = ArrayAdapter.CreateFromResource (this, Resource.Array.Vegetables, Android.Resource.Layout.SimpleSpinnerItem);
+
+			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
+
+			spinner.Adapter = adapter;
 
 		}
 	}

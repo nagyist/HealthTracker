@@ -8,19 +8,23 @@
 package healthtracker.healthtracker;
 
 public final class R {
+    public static final class array {
+        public static final int Vegetables=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int EnterButton=0x7f050003;
-        public static final int EnterProtienEditText=0x7f050002;
-        public static final int EnterProtienTextView=0x7f050001;
-        public static final int GoalsButton=0x7f050005;
-        public static final int GoalsTextView=0x7f050000;
-        public static final int TotalProtienTextView=0x7f050004;
-        public static final int linearLayout1=0x7f050006;
+        public static final int EnterButton=0x7f060003;
+        public static final int EnterProtienEditText=0x7f060002;
+        public static final int EnterProtienTextView=0x7f060001;
+        public static final int GoalsButton=0x7f060005;
+        public static final int GoalsTextView=0x7f060000;
+        public static final int TotalProtienTextView=0x7f060004;
+        public static final int linearLayout1=0x7f060007;
+        public static final int vegetableDropdown=0x7f060006;
     }
     public static final class layout {
         public static final int goals=0x7f030000;

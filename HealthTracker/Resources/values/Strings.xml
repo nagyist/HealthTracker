@@ -6,4 +6,10 @@
 	<string name="TestData">100</string>
 	<string name="Enter">Enter</string>
 	<string name="Goals">Goals</string>
+	<string-array name="Vegetables">
+		<item>Carrot</item>
+		<item>Peas</item>
+		<item>Green Beans</item>
+		<item>Squash</item>
+	</string-array>
 </resources>
