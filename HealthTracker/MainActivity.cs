@@ -43,6 +43,14 @@ namespace HealthTracker
 
 			spinner.Adapter = adapter;
 
+			spinner.ItemSelected += spinner_itemSelected;
+
+		}
+
+		void spinner_itemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
+		{
+			Spinner spinner = (Spinner)sender;
+			Console.WriteLine (spinner.GetItemIdAtPosition(e.Position));
 		}
 	}
 }
