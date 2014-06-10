@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference
+		android:key="goalPreference"
+		android:title="Daily Goal"
+		android:summary="Number of grams of protein for daily goal."
+		android:numeric="integer"/>
+</PreferenceScreen>

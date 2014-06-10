@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Preferences;
 
 namespace HealthTracker
 {
@@ -32,7 +33,7 @@ namespace HealthTracker
 
 			goalsButton.Click += (sender, e) => 
 			{
-				StartActivity(typeof(Goals));
+				StartActivity(typeof(PreferencesActivity));
 			};
 
 			var spinner = FindViewById<Spinner> (Resource.Id.vegetableDropdown);
@@ -44,6 +45,16 @@ namespace HealthTracker
 			spinner.Adapter = adapter;
 
 			spinner.ItemSelected += spinner_itemSelected;
+
+		}
+
+		protected override void OnResume()
+		{
+			base.OnResume ();
+			var preferences = PreferenceManager.GetDefaultSharedPreferences (ApplicationContext);
+			var goalString = preferences.GetString ("goalPreference", "0");
+			var goalTextView = FindViewById<TextView> (Resource.Id.GoalsTextView);
+			goalTextView.Text = goalString;
 
 		}
 

@@ -31,8 +31,8 @@ namespace HealthTracker
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Vegetables = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Vegetables = 2131099648;
 			
 			static Array()
 			{
@@ -76,29 +76,29 @@ namespace HealthTracker
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060003
-			public const int EnterButton = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int EnterButton = 2131165187;
 			
-			// aapt resource value: 0x7f060002
-			public const int EnterProtienEditText = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int EnterProtienEditText = 2131165186;
 			
-			// aapt resource value: 0x7f060001
-			public const int EnterProtienTextView = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int EnterProtienTextView = 2131165185;
 			
-			// aapt resource value: 0x7f060005
-			public const int GoalsButton = 2131099653;
+			// aapt resource value: 0x7f070005
+			public const int GoalsButton = 2131165189;
 			
-			// aapt resource value: 0x7f060000
-			public const int GoalsTextView = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int GoalsTextView = 2131165184;
 			
-			// aapt resource value: 0x7f060004
-			public const int TotalProtienTextView = 2131099652;
+			// aapt resource value: 0x7f070004
+			public const int TotalProtienTextView = 2131165188;
 			
-			// aapt resource value: 0x7f060007
-			public const int linearLayout1 = 2131099655;
+			// aapt resource value: 0x7f070007
+			public const int linearLayout1 = 2131165191;
 			
-			// aapt resource value: 0x7f060006
-			public const int vegetableDropdown = 2131099654;
+			// aapt resource value: 0x7f070006
+			public const int vegetableDropdown = 2131165190;
 			
 			static Id()
 			{
@@ -135,23 +135,23 @@ namespace HealthTracker
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040004
-			public const int Enter = 2130968580;
+			// aapt resource value: 0x7f050004
+			public const int Enter = 2131034116;
 			
-			// aapt resource value: 0x7f040002
-			public const int EnterProtien = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int EnterProtien = 2131034114;
 			
-			// aapt resource value: 0x7f040005
-			public const int Goals = 2130968581;
+			// aapt resource value: 0x7f050005
+			public const int Goals = 2131034117;
 			
-			// aapt resource value: 0x7f040003
-			public const int TestData = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int TestData = 2131034115;
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
 			
 			static String()
 			{
@@ -159,6 +159,22 @@ namespace HealthTracker
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int Preferences = 2130968576;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}
